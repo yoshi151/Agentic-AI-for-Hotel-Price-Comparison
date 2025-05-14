@@ -53,10 +53,3 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
-
-"""
-SET GEMINI_API_KEY AIzaSyAyejwfHvn6YTmugdZzBE3PNOECbct6MwY 
-
-
-curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyAyejwfHvn6YTmugdZzBE3PNOECbct6MwY" -H 'Content-Type: application/json' -X POST -d '{"contents": [{"parts": [{"text": "Write a story about a magic backpack."}]}]}'
-"""
