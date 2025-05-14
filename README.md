@@ -17,3 +17,5 @@ Ollama
 Browser-Use Agent
 
 Python + LangChain 
+
+[Watch Demo Video](demo.mp4)
